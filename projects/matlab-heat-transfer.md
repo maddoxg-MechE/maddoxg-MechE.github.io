@@ -1,3 +1,6 @@
-## MATLAB Heat Transfer Project
-Numerical solution to transient conduction problems.  
-[View Project](projects/matlab-heat-transfer.md)
+<iframe
+  src="../assets/matlab/annotated-Project%206-1.pdf"
+  width="100%"
+  height="900px"
+  style="border:1px solid #ccc; border-radius:8px;"
+></iframe>
