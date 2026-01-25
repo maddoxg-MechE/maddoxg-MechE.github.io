@@ -17,3 +17,9 @@ Applies the Newton–Raphson method to solve a system of nonlinear equations ari
 Implements the Gauss–Seidel method with Successive Over-Relaxation in MATLAB to solve a large system of linear equations arising from a heat transfer problem. Convergence behavior and solver efficiency were evaluated by analyzing residual norms and iteration counts across multiple relaxation parameters.
 
 [View Project](projects/Project_4.md)
+
+
+### Matlab Project: Solving Systems of Equations using Gauss Elimination
+This project implements the Gauss Elimination method in MATLAB to solve a large system of linear equations read from external data files. Solution accuracy and numerical stability were assessed through residual analysis, comparison with MATLAB’s linear solver, and evaluation of matrix diagonal dominance.
+
+[View Project](projects/Project_3.md)
