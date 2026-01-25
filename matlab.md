@@ -31,7 +31,7 @@ Applies the Newton–Raphson and Secant methods to solve the Colebrook equation 
 [View Project](projects/Project_2.md)
 
 
-### Matlab Project: Finite Difference and why you cannot take the limit ∆x → 0on the computer.
+### Matlab Project: Finite Difference and why you cannot take the limit ∆x → 0 on the computer.
 Built a MATLAB script to compare forward, backward, and central finite-difference derivative approximations at x=0.75 over a wide range of step sizes. Verified accuracy against the exact derivative, visualized error trends on log–log plots, and repeated the analysis in single precision to highlight floating-point limitations and machine epsilon effects.
 
 [View Project](projects/Project_1.md)
