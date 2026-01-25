@@ -25,7 +25,7 @@ Uses the Gauss Elimination method in MATLAB to solve a large system of linear eq
 [View Project](projects/Project_3.md)
 
 
-### Matlab Project: Solving Systems of Equations using Gauss Elimination
+### Matlab Project: Root Solving Using Newton-Raphson and Secant Method – finding the friction factor in a pipe
 Applies the Newton–Raphson and Secant methods to solve the Colebrook equation for the friction factor in turbulent pipe flow. MATLAB was used to compute the friction factor, evaluate head loss, and compare convergence behavior between the two numerical root-finding methods.
 
 [View Project](projects/Project_2.md)
