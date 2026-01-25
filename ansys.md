@@ -7,14 +7,14 @@ Simulated 2D laminar internal flow in ANSYS Fluent for Poiseuille, Couette, and 
 [View Project](projects/ansys_1.md)
 
 
-### ### 2D Laminar Boundary Layer Over a Flat Plate 
+### 2D Laminar Boundary Layer Over a Flat Plate 
 Simulated 2D steady laminar airflow over a 1.0 m flat plate in ANSYS Fluent and visualized the developing boundary layer using velocity vectors and pressure contours. Extracted velocity profiles, boundary layer thickness, wall shear stress, skin friction, and drag, and compared Fluent results to classical flat-plate boundary layer theory.
 
 [View Project](projects/ansys_2.md)
 
 
-### Matlab Project: Solving Systems of Equations using the Gauss-Seidel SOR algorithm
-Implements the Gauss–Seidel method with Successive Over-Relaxation in MATLAB to solve a large system of linear equations arising from a heat transfer problem. Convergence behavior and solver efficiency were evaluated by analyzing residual norms and iteration counts across multiple relaxation parameters.
+### 2D CFD Analysis of Flow Around a Circular Cylinder: Inviscid, Laminar, and Turbulent Regimes
+Simulated 2D flow around a circular cylinder in ANSYS Fluent under inviscid, laminar, and turbulent conditions to examine changes in flow structure and aerodynamic loading. Compared surface pressure, velocity distributions, and drag coefficients to assess the impact of viscosity and turbulence on separation and drag behavior
 
 [View Project](projects/ansys_3.md)
 
