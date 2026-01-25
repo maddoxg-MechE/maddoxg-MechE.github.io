@@ -1,4 +1,4 @@
-# Heat Transfer Numerical Solver (MATLAB)
+# MatLab Project: Linear Least Squares
 
 ## Project Report
 
