@@ -43,8 +43,8 @@ Built a MATLAB solver using 5-point Gauss–Legendre quadrature to compute the n
 [View Project](projects/Project_7.md)
 
 
-### Matlab Project: 8
-Built a MATLAB solver using 5-point Gauss–Legendre quadrature to compute the nonlinear period of a simple pendulum as a function of initial angle. Validated the integration routine against an analytical benchmark and evaluated the period using one vs. two quadrature intervals to study accuracy.
+### Matlab Project: 1st order ODE Solver for circuit
+Simulated the transient voltage decay of an RC circuit by solving a first-order ODE in MATLAB. Compared Euler’s method at multiple time steps with the exact solution and with ode45 under different tolerances to study accuracy, stability, and step-size effects.
 
 [View Project](projects/Project_8.md)
 
