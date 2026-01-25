@@ -9,5 +9,6 @@ This project applies least-squares polynomial regression to experimental data us
 
 
 ## Dynamic System Response Tool
-Time and frequency response analysis of mechanical systems.  
-Tools: MATLAB
+This project applies the Newton–Raphson method to solve a system of nonlinear equations arising from finite-difference heat conduction modeling. MATLAB was used to compute the Jacobian numerically, enforce convergence criteria, and analyze the resulting temperature distribution.
+
+[View Project](projects/matlab-heat-transfer.md)
