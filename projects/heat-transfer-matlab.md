@@ -2,10 +2,10 @@
 
 ## Project Report
 
-[Open the PDF in a new tab](../heat-transfer-report.pdf)
+[Open the PDF in a new tab](../Project_6.pdf)
 
 <iframe
-  src="../annotated-Project%206-1"
+  src="../Project_6"
   width="100%"
   height="900px"
   style="border:1px solid #ccc; border-radius:8px;"
