@@ -51,4 +51,5 @@ Simulated the transient voltage decay of an RC circuit by solving a first-order 
 
 ### Matlab Project: Solution of 2nd order Non-linear ODE from Pendulum
 Modeled a nonlinear pendulum in MATLAB by combining adaptive quadrature (quadgk) for period prediction with ode45 for time-domain simulation ofθ(t) and θ˙(t). Compared solutions across solver tolerances and drag conditions using interpolated point evaluations, time-history plots, and phase-space (Poincaré) maps to validate accuracy and characterize damping effects.
+
 [View Project](projects/Project_9.md)
