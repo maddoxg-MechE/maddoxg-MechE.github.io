@@ -5,11 +5,9 @@
 [Open the PDF in a new tab](/Project_6.pdf)
 
 <iframe
-  src="/Project_6.pdf#view=FitH"
+  src="/Project_6.pdf"
   width="100%"
-  height="1000"
-  style="border:0;"
-  loading="lazy"
+  height="1100"
+  style="border: none;"
 ></iframe>
-
 
