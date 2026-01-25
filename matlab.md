@@ -49,7 +49,6 @@ Simulated the transient voltage decay of an RC circuit by solving a first-order 
 [View Project](projects/Project_8.md)
 
 
-### Matlab Project: 9
-Built a MATLAB solver using 5-point Gauss–Legendre quadrature to compute the nonlinear period of a simple pendulum as a function of initial angle. Validated the integration routine against an analytical benchmark and evaluated the period using one vs. two quadrature intervals to study accuracy.
-
+### Matlab Project: Solution of 2nd order Non-linear ODE from Pendulum
+Modeled a nonlinear pendulum in MATLAB by combining adaptive quadrature (quadgk) for period prediction with ode45 for time-domain simulation ofθ(t) and θ˙(t). Compared solutions across solver tolerances and drag conditions using interpolated point evaluations, time-history plots, and phase-space (Poincaré) maps to validate accuracy and characterize damping effects.
 [View Project](projects/Project_9.md)
