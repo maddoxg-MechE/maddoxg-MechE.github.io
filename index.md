@@ -5,7 +5,7 @@ Welcome to my engineering portfolio. Below are selected projects organized by fo
 
 ## Project Areas
 - 📊 [MATLAB & Data Analysis](matlab.md)
-- 🌬️ [Wind Tunnel & Experimental Testing](wind-tunnel.md)
+- 🌬️ [CFD & ANSYS Fluent Simulations](ansys.md)
 - 🧩 [CAD & Mechanical Design](cad.md)
 - ⚙️ [Controls, Vibrations & Dynamics](controls.md)
 - 🚀 [Research & NASA Projects](research.md)
