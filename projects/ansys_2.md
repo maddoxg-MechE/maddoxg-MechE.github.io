@@ -1,7 +1,7 @@
 # 2D Laminar Boundary Layer Over a Flat Plate (ANSYS Fluent)
 ## Project Report
 
-Modeled laminar, steady, incompressible flow over a thin flat plate (L = 1.0 m) in ANSYS Fluent. Generated pressure and velocity-vector contours and zoomed into the near-wall region to capture boundary-layer development. Quantitatively evaluated boundary-layer behavior by exporting velocity profiles at x = 0.35m and x = 0.75m and estimating boundary-layer thickness from the profiles, then comparing those values against theoretical laminar flat-plate predictions. Computed wall shear stress and skin-friction coefficient distributions along the plate and overlaid Fluent and theoretical curves to assess agreement and trends. Finally, obtained the plate drag coefficient from Fluent force reports and compared the CFD-based drag coefficient to the theoretical value in tabulated form.
+Performed a 2D steady laminar CFD simulation in ANSYS Fluent to model airflow over a thin flat plate and resolve boundary-layer development along the surface. Generated velocity vector fields and pressure contours with a focused boundary-layer view, then extracted velocity profiles at x = 0.35m and x = 0.75m to estimate boundary-layer thickness from the CFD results. Computed wall shear stress and local skin-friction coefficient Cf(x) along the plate and compared the Fluent predictions against classical laminar flat-plate theory on the same plots. Finally, evaluated the overall drag coefficient Cd	​from Fluent and compared it to the theoretical value in a clear table to validate the simulation accuracy.
 
 [Open the PDF in a new tab](/ansys_2.pdf)
 
