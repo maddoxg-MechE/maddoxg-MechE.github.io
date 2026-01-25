@@ -1,4 +1,4 @@
-# Matlab Project: Finite Difference and why you cannot take the limit    ∆x → 0 on the computer.
+# Matlab Project: Finite Difference and why you can't take the limit ∆x → 0 on the computer.
 
 ## Project Report
 
