@@ -2,10 +2,10 @@
 
 Projects involving numerical methods, simulations, and signal processing.
 
-### Heat Transfer Numerical Solver
-Finite-difference solution to transient conduction problems.  
+### MatLab Project: Linear Least Squares
+This project applies least-squares polynomial regression to experimental data using MATLAB. Linear, quadratic, and seventh-order models were developed and evaluated using statistical error metrics and graphical analysis.
 
-👉 [Click here to view this project](projects/heat-transfer-matlab.md)
+[View Project](projects/heat-transfer-matlab.md)
 
 
 ## Dynamic System Response Tool
