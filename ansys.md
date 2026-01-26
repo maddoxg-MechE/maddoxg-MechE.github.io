@@ -19,7 +19,7 @@ Simulated 2D flow around a circular cylinder in ANSYS Fluent under inviscid, lam
 [View Project](projects/ansys_3.md)
 
 
-### Matlab Project: Solving Systems of Equations using Gauss Elimination
-Uses the Gauss Elimination method in MATLAB to solve a large system of linear equations read from external data files. Solution accuracy and numerical stability were assessed through residual analysis, comparison with MATLAB’s linear solver, and evaluation of matrix diagonal dominance.
+### Turbulent CFD Simulation of a Wind Tunnel With Test-Section Models 
+Simulated a viscous turbulent wind tunnel flow in ANSYS Fluent (ideal-gas air) to achieve a 15 m/s test-section condition and evaluate pressure and velocity behavior throughout the tunnel. Added a 2D cylinder and thin flat plate model in the test section and extracted aerodynamic performance metrics—surface Cp, skin friction/wall shear, and drag coefficients—to quantify model-induced effects and overall test-section flow quality.
 
 [View Project](projects/ansys_4.md)
