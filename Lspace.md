@@ -10,7 +10,7 @@ The Mission Concept Review (MCR) defines the mission’s objectives, architectur
 ### 2D Laminar Boundary Layer Over a Flat Plate 
 Simulated 2D steady laminar airflow over a 1.0 m flat plate in ANSYS Fluent and visualized the developing boundary layer using velocity vectors and pressure contours. Extracted velocity profiles, boundary layer thickness, wall shear stress, skin friction, and drag, and compared Fluent results to classical flat-plate boundary layer theory.
 
-[View Project](projects/ansys_2.md)
+[View Project](projects/SRR.md)
 
 
 ### 2D CFD Analysis of Flow Around a Circular Cylinder: Inviscid, Laminar, and Turbulent Regimes
