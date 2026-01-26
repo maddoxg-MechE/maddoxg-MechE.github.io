@@ -7,19 +7,19 @@ The Mission Concept Review (MCR) defines the mission’s objectives, architectur
 [View Project](projects/MCR.md)
 
 
-### 2D Laminar Boundary Layer Over a Flat Plate 
-Simulated 2D steady laminar airflow over a 1.0 m flat plate in ANSYS Fluent and visualized the developing boundary layer using velocity vectors and pressure contours. Extracted velocity profiles, boundary layer thickness, wall shear stress, skin friction, and drag, and compared Fluent results to classical flat-plate boundary layer theory.
+### System Requirements Review
+This Systems Requirements Review (SRR) defines the mission objectives, constraints, hazards, and subsystem-level requirements for the HELP mission to the Moon’s Compton Pit, establishing a clear technical baseline for a March 1, 2030 launch. It serves to transition the mission from concept development to requirements-driven design, identifying key risks, trade decisions, and remaining TBDs to be resolved in preparation for the upcoming SSR and MDR phases.
 
 [View Project](projects/SRR.md)
 
 
-### 2D CFD Analysis of Flow Around a Circular Cylinder: Inviscid, Laminar, and Turbulent Regimes
-Simulated 2D flow around a circular cylinder in ANSYS Fluent under inviscid, laminar, and turbulent conditions to examine changes in flow structure and aerodynamic loading. Compared surface pressure, velocity distributions, and drag coefficients to assess the impact of viscosity and turbulence on separation and drag behavior
+### Mission Definition Review
+This document defines the programmatic, technical, and financial framework required to design, build, launch, and operate the HELP lunar rover mission. It establishes how risks are identified and mitigated, how systems are verified and validated, and how schedule and budget constraints are managed. Overall, it serves as the baseline planning and decision-making reference guiding the mission from design through closeout.
 
-[View Project](projects/ansys_3.md)
+[View Project](projects/MDR.md)
 
 
-### Turbulent CFD Simulation of a Wind Tunnel With Test-Section Models 
+### Prelimenary Design Review
 Simulated a viscous turbulent wind tunnel flow in ANSYS Fluent (ideal-gas air) to achieve a 15 m/s test-section condition and evaluate pressure and velocity behavior throughout the tunnel. Added a 2D cylinder and thin flat plate model in the test section and extracted aerodynamic performance metrics—surface Cp, skin friction/wall shear, and drag coefficients—to quantify model-induced effects and overall test-section flow quality.
 
-[View Project](projects/ansys_4.md)
+[View Project](projects/PDR.md)
