@@ -20,6 +20,6 @@ This document defines the programmatic, technical, and financial framework requi
 
 
 ### Prelimenary Design Review
-Simulated a viscous turbulent wind tunnel flow in ANSYS Fluent (ideal-gas air) to achieve a 15 m/s test-section condition and evaluate pressure and velocity behavior throughout the tunnel. Added a 2D cylinder and thin flat plate model in the test section and extracted aerodynamic performance metrics—surface Cp, skin friction/wall shear, and drag coefficients—to quantify model-induced effects and overall test-section flow quality.
+The Preliminary Design Review (PDR) assesses whether the mission’s preliminary design meets all applicable requirements and is mature enough to enter Phase C of the NASA Mission Life Cycle. The review verifies that technical designs, cost and schedule baselines, and risk mitigation strategies are credible and internally consistent. Approval at PDR establishes the basis for detailed design, fabrication, and integration.
 
 [View Project](projects/PDR.md)
