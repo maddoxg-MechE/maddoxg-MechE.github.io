@@ -1,8 +1,8 @@
 # NASA L'Space Program
 
 
-### Fluent 2D Laminar Internal Flow Simulation: Poiseuille & Couette Cases
-Simulated 2D laminar internal flow in ANSYS Fluent for Poiseuille, Couette, and combined pressure–shear configurations under steady incompressible conditions. Compared velocity fields, profile development, and maximum velocity locations to demonstrate the physical differences between pressure-driven and shear-driven channel flows.
+### Mission Concept Review
+The Mission Concept Review (MCR) defines the mission’s objectives, architecture, and feasibility by outlining the scientific goals, operational approach, system trades, risks, and programmatic constraints, and serves as the first formal milestone to demonstrate that the proposed mission concept is viable and ready to proceed toward requirements definition.
 
 [View Project](projects/MCR.md)
 
