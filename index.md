@@ -8,7 +8,7 @@ Welcome to my engineering portfolio. Below are selected projects organized by fo
 - 🌬️ [CFD & ANSYS Fluent Simulations](ansys.md)
 - 🧩 [CAD & Mechanical Design](cad.md)
 - ⚙️ [Controls, Vibrations & Dynamics](controls.md)
-- 🚀 [Research & NASA Projects](research.md)
+- 🚀 [NASA L'Space Program](Lspace.md)
 
 ## Links
 - Resume (PDF)
