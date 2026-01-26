@@ -4,7 +4,7 @@
 ### Fluent 2D Laminar Internal Flow Simulation: Poiseuille & Couette Cases
 Simulated 2D laminar internal flow in ANSYS Fluent for Poiseuille, Couette, and combined pressure–shear configurations under steady incompressible conditions. Compared velocity fields, profile development, and maximum velocity locations to demonstrate the physical differences between pressure-driven and shear-driven channel flows.
 
-[View Project](projects/Lspace_MCR.md)
+[View Project](projects/Lspace_1.md)
 
 
 ### 2D Laminar Boundary Layer Over a Flat Plate 
