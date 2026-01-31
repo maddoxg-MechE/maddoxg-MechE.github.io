@@ -9,7 +9,7 @@ Overall, the project demonstrated how statics plays a critical role in predictin
 
 
 <div style="text-align:center;">
-  <img src="/bridge.jpeg">
+  <img src="/bridge.jpeg" height="600">
 </div>
 
 [Open the PDF in a new tab](/bridgereport.pdf)
