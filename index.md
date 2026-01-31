@@ -5,7 +5,7 @@ Welcome to my engineering portfolio. Below are additional projects in progress, 
 
 ## Project Areas
 - 🌉 [IDEAS Competition](Ideas.md)
--💨  [Wind Tunnel](wind_tunnel.md)
+- 💨  [Wind Tunnel](wind_tunnel.md)
 - 🌬️ [CFD & ANSYS Fluent Simulations](ansys.md)
 - 🚀 [NASA L'Space Program](Lspace.md)
 - 📊 [MATLAB & Data Analysis](matlab.md)
