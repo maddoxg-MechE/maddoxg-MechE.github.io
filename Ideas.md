@@ -8,8 +8,9 @@ To validate the theoretical analysis, a physical bridge model was built using wo
 Overall, the project demonstrated how statics plays a critical role in predicting structural behavior and preventing failure. The close agreement between analytical calculations and experimental results confirmed the validity of the design approach. This study highlights how careful material selection, accurate force analysis, and controlled testing can improve the safety and reliability of real world bridge structures.
 
 
-<img src="/bridge.jpeg" width="1000">
-
+<div style="text-align:center;">
+  <img src="/bridge.jpeg">
+</div>
 
 [Open the PDF in a new tab](/bridgereport.pdf)
 
