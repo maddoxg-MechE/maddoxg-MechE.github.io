@@ -14,7 +14,7 @@ Overall, the project demonstrated how statics plays a critical role in predictin
 [Open the PDF in a new tab](/bridgereport.pdf)
 
 <iframe
-  src="/ansys_1.pdf"
+  src="/bridgereport.pdf"
   width="100%"
   height="1100"
   style="border: none;"
