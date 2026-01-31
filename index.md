@@ -8,7 +8,7 @@ Welcome to my engineering portfolio. Below are additional projects that are in p
 - 🚀 [NASA L'Space Program](Lspace.md)
 - 📊 [MATLAB & Data Analysis](matlab.md)
 - 🌉 [IDEAS Competition](Ideas.md)
-- 💨 [Wind Tunnel](wind_tunnel.md)
+- 💨 [Wind Tunnel](windtunnel.md)
 
 ## Links
 - [Resume (PDF)](/Resume.pdf)
