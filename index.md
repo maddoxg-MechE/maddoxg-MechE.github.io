@@ -1,7 +1,7 @@
 # Maddox Gonzalez
 Mechanical Engineering | BS–MS | Thermofluids & Design
 
-Welcome to my engineering portfolio. Below are selected projects organized by focus area.
+Welcome to my engineering portfolio. Below are additional 
 
 ## Project Areas
 - 🌉 [IDEAS Competition](Ideas.md)
@@ -12,5 +12,5 @@ Welcome to my engineering portfolio. Below are selected projects organized by fo
 
 ## Links
 - [Resume (PDF)](/Resume.pdf)
-- Handshake (https://app.joinhandshake.com/profiles/neyach)
-- LinkedIn (www.linkedin.com/in/maddox-gonzalez-332a21324)
+- [Handshake] (https://app.joinhandshake.com/profiles/neyach)
+- [LinkedIn] (www.linkedin.com/in/maddox-gonzalez-332a21324)
