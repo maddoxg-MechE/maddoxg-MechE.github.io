@@ -11,6 +11,6 @@ Welcome to my engineering portfolio. Below are selected projects organized by fo
 - 📊 [MATLAB & Data Analysis](matlab.md)
 
 ## Links
-- [Resume (PDF)](/resume.md)
+- [Resume (PDF)](/Resume.pdf)
 - GitHub
 - LinkedIn
