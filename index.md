@@ -1,7 +1,7 @@
 # Maddox Gonzalez
 Mechanical Engineering | BS–MS | Aerospace Thermofluids 
 
-Welcome to my engineering portfolio. Below are additional projects that are in progress, and that I have completed.
+Welcome to my engineering portfolio. Below are additional projects that are in progress; and that I have completed.
 
 ## Project Areas
 - 🌬️ [CFD & ANSYS Fluent Simulations](ansys.md)
