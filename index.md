@@ -5,6 +5,7 @@ Welcome to my engineering portfolio. Below are additional projects that are in p
 
 ## Project Areas
 - 🔥 [Physics-Informed Neural Network (PINN) Heat Transfer Solver](pinn.md)
+- 🔬 [Investigating Porosity in 3D Printed PLA](porosity.md)
 - 💨 [Wind Tunnel](windtunnel.md)
 - 🚀 [NASA L'Space Program](Lspace.md)
 - 🌉 [IDEAS Competition](Ideas.md)
