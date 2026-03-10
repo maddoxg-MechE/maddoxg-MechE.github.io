@@ -32,3 +32,13 @@ The primary objective of this project is to explore whether physics-informed neu
     <figcaption>Predicted results from PINN (left: network setup, right: temperature prediction).</figcaption>
   </figure>
 </div>
+
+
+[Open the PDF in a new tab](/pinn3.pdf)
+
+<iframe
+  src="/pinn3.pdf"
+  width="100%"
+  height="1100"
+  style="border: none;"
+></iframe>
