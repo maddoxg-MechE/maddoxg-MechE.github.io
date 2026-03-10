@@ -19,13 +19,13 @@ The primary objective of this project is to explore whether physics-informed neu
 <div style="text-align:center;">
   <figure>
     <img src="/pinn1.png" style="max-height:400px; max-width:100%;">
-    <figcaption>Scenario being modeled in the PINN solver.</figcaption>
+    <figcaption>###Scenario being modeled in the PINN solver.</figcaption>
   </figure>
 </div>
 
 <div style="text-align:center; margin-top: 40px;">
   <figure>
     <img src="/pinn2.png" style="max-height:400px; max-width:100%;">
-    <figcaption>Predicted results from PINN (left: network setup, right: temperature prediction).</figcaption>
+    <figcaption>###Predicted results from PINN (left: network setup, right: temperature prediction).</figcaption>
   </figure>
 </div>
