@@ -5,11 +5,13 @@ Welcome to my engineering portfolio. Below are additional projects that are in p
 
 ## Project Areas
 - 🔥 [Physics-Informed Neural Network (PINN) Heat Transfer Solver](pinn.md)
-- 🌬️ [CFD & ANSYS Fluent Simulations](ansys.md)
-- 🚀 [NASA L'Space Program](Lspace.md)
-- 📊 [MATLAB & Data Analysis](matlab.md)
-- 🌉 [IDEAS Competition](Ideas.md)
 - 💨 [Wind Tunnel](windtunnel.md)
+- 🚀 [NASA L'Space Program](Lspace.md)
+- 🌉 [IDEAS Competition](Ideas.md)
+- 🌬️ [CFD & ANSYS Fluent Simulations](ansys.md)
+- 📊 [MATLAB & Data Analysis](matlab.md)
+
+
 
 ## Links
 - [Resume (PDF)](/Resume.pdf)
