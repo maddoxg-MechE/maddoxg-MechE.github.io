@@ -1,44 +1,101 @@
-# Physics-Informed Neural Network (PINN) Heat Transfer Solver
+# Physics-Informed Neural Network for Phase-Change Heat Transfer in Additive Manufacturing
 
 ## Project Overview
 
-This project investigates the use of physics-informed neural networks (PINNs) to solve heat transfer problems governed by differential equations. Traditional numerical approaches such as finite difference or finite element methods require discretizing the domain and solving large systems of equations. In contrast, PINNs embed the governing physical equations directly into the training process of a neural network, allowing the model to approximate solutions while satisfying the underlying physics.
+This project investigates the application of **Physics-Informed Neural Networks (PINNs)** to solve transient heat transfer problems involving phase change. A one-dimensional Stefan problem representative of additive manufacturing was implemented in PyTorch and validated against finite element method (FEM) solutions.
 
-The goal of this project is to implement a PINN model to solve a heat conduction problem and evaluate how accurately it predicts the temperature distribution across the domain. The neural network will be trained to minimize the residual of the governing heat equation while also satisfying the imposed boundary conditions.
+Unlike traditional numerical approaches that require mesh generation and repeated discretization, PINNs incorporate the governing differential equations directly into the loss function. The neural network learns the temperature field while simultaneously satisfying the underlying physics and imposed boundary conditions.
+
+The study focused on the influence of boundary-condition enforcement strategies and collocation density on training stability and solution accuracy. Two approaches were investigated:
+
+- **Hard boundary conditions**, where Dirichlet boundary values are embedded directly into the network output.
+- **Soft boundary conditions**, where boundary values are enforced through penalty terms in the loss function.
+
+Results demonstrated that hard boundary enforcement produced significantly more stable training and improved accuracy.
 
 ## Methodology
 
-The solver will be implemented in Python using the PyTorch machine learning framework. The neural network will take spatial coordinates as inputs and predict the corresponding temperature values. During training, the governing heat equation will be incorporated into the loss function so that the network learns solutions that satisfy the physics of heat conduction.
+The solver was developed in **Python using PyTorch** and modeled a one-dimensional graphite-aluminum domain undergoing phase change. The governing enthalpy form of the transient heat equation was enforced through automatic differentiation.
 
-To validate the neural network results, the same physical scenario will also be simulated using finite element analysis in ANSYS Mechanical. This provides a numerical reference solution that can be compared directly against the PINN predictions. Temperature fields, convergence behavior, and overall solution accuracy will be evaluated between the two approaches.
+### PINN Architecture
 
-## Objectives
+- Four fully connected hidden layers
+- 200 neurons per layer
+- tanh activation functions
+- Approximately 123,000 trainable parameters
 
-The primary objective of this project is to explore whether physics-informed neural networks can produce accurate solutions to engineering heat transfer problems without relying on traditional discretization methods. By comparing the PINN solution to a finite element simulation, the project will assess the potential of machine learning approaches as alternative tools for solving physics-based engineering problems.
+### Training Procedure
 
+Training was performed in two stages:
+
+1. Pre-training using the initial temperature field.
+2. Physics-informed optimization using:
+   - PDE residual loss
+   - Initial condition loss
+   - Boundary condition losses (soft BC model)
+
+Optimization employed both the Adam optimizer and L-BFGS.
+
+### Finite Element Validation
+
+A separate finite element solver was implemented to provide reference solutions and perform mesh refinement studies. Temperature fields, phase-interface locations, and relative L₂ errors were compared against the PINN predictions.
+
+## Key Results
+
+### Hard Boundary Conditions Outperformed Soft Boundary Conditions
+
+- Hard-BC PINN relative error: **0.9 × 10⁻³**
+- Soft-BC PINN relative error: **2.0 × 10⁻³**
+
+Hard boundary enforcement produced smoother convergence and avoided the optimization instabilities observed in the soft-BC formulation.
+
+### Comparison with FEM
+
+| Resolution | FEM Error | Hard-BC PINN Error |
+|------------|----------:|------------------:|
+| Nx = 50 | 3.6×10⁻² | 1.1×10⁻³ |
+| Nx = 100 | 9.1×10⁻³ | 1.0×10⁻³ |
+| Nx = 150 | 4.1×10⁻³ | 1.0×10⁻³ |
+| Nx = 200 | 2.3×10⁻³ | 0.9×10⁻³ |
+
+At coarse resolutions, the PINN outperformed FEM by more than an order of magnitude while avoiding explicit mesh generation. Increasing the number of collocation points beyond moderate levels produced only marginal improvements in accuracy.
+
+## Major Findings
+
+- Hard boundary enforcement was significantly more robust than soft boundary enforcement.
+- PINNs accurately captured both the temperature field and phase-interface evolution.
+- Training stability depended strongly on normalization and loss balancing.
+- Increasing collocation density beyond 10,000 points yielded little improvement in accuracy.
+- The hard-BC PINN achieved relative errors below 10⁻³ while avoiding traditional mesh generation.
+
+## Technologies Used
+
+- Python
+- PyTorch
+- NumPy
+- SciPy
+- Automatic Differentiation
+- Latin Hypercube Sampling
+- Finite Element Method (FEM)
 
 <div style="text-align:center;">
   <figure>
     <img src="/pinn1.png" style="max-height:400px; max-width:100%;">
-    <figcaption>Scenario being modeled in the PINN solver.</figcaption>
+    <figcaption>
+      One-dimensional graphite-aluminum domain used in the Stefan phase-change benchmark.
+    </figcaption>
   </figure>
 </div>
 
-
-
-<div style="text-align:center; margin-top: 40px;">
+<div style="text-align:center; margin-top:40px;">
   <figure>
     <img src="/pinn2.png" style="max-height:400px; max-width:100%;">
-    <figcaption>Predicted results from PINN (left: network setup, right: temperature prediction).</figcaption>
+    <figcaption>
+      PINN architecture and predicted temperature field generated by the physics-informed neural network.
+    </figcaption>
   </figure>
 </div>
 
+## Technical Report
 
 [Open the PDF in a new tab](/pinn3.pdf)
-
-<iframe
-  src="/pinn3.pdf"
-  width="100%"
-  height="1100"
-  style="border: none;"
-></iframe>
