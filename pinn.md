@@ -68,16 +68,6 @@ At coarse resolutions, the PINN outperformed FEM by more than an order of magnit
 - Increasing collocation density beyond 10,000 points yielded little improvement in accuracy.
 - The hard-BC PINN achieved relative errors below 10⁻³ while avoiding traditional mesh generation.
 
-## Technologies Used
-
-- Python
-- PyTorch
-- NumPy
-- SciPy
-- Automatic Differentiation
-- Latin Hypercube Sampling
-- Finite Element Method (FEM)
-
 <div style="text-align:center;">
   <figure>
     <img src="/pinn1.png" style="max-height:400px; max-width:100%;">
