@@ -94,6 +94,13 @@ The complete technical report and presentation are available below.
 
 ### Project Presentation
 
+<iframe
+  src="./EML_5360_Project_Presentation.pdf"
+  width="100%"
+  height="700"
+  style="border:none;">
+</iframe>
+
 [Download the PowerPoint Presentation](/EML_5360_Project_Presentation.pptx)
 
 <iframe
