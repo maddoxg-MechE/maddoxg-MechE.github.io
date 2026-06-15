@@ -4,8 +4,8 @@ Mechanical Engineering | BS–MS | Aerospace Thermofluids
 Welcome to my engineering portfolio. Below are additional projects that are in progress; and that I have completed.
 
 ## Project Areas
+- 🔬 [Undergraduate Research – Composite Materials and Structures Lab](porosity.md)
 - 🔥 [Physics-Informed Neural Network (PINN) Heat Transfer Solver](pinn.md)
-- 🔬 [Investigating Porosity in 3D Printed PLA](porosity.md)
 - 💨 [Wind Tunnel](windtunnel.md)
 - 🚀 [NASA L'Space Program](Lspace.md)
 - 🌉 [IDEAS Competition](Ideas.md)
