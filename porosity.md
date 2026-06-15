@@ -62,18 +62,6 @@ As the surface chars and recedes, the porous ceramic provides mechanical support
 
 After fabrication, specimens will be subjected to torch testing to evaluate thermal performance. The temperature response and structural behavior of the hybrid composite will be compared with conventional thermal protection materials to determine the effectiveness of the functionally graded architecture.
 
-## Software and Tools
-
-- Python
-- NumPy
-- SciPy
-- scikit-image
-- Trimesh
-- SolidWorks
-- Ceramic Additive Manufacturing
-- STL Processing
-- Image Analysis
-
 ## Future Work
 
 - Fabrication of modular hexagonal tiles.
