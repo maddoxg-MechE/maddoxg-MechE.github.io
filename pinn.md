@@ -83,10 +83,10 @@ The complete technical report and presentation are available below.
 
 ### Research Paper
 
-[Open the Research Paper (PDF) in a new tab](/EML%205360%20Projec%20Paper.pdf)
+[Open the Research Paper (PDF) in a new tab](/EML_5360_Project_Paper.pdf)
 
 <iframe
-  src="/EML%205360%20Projec%20Paper.pdf"
+  src="/EML_5360_Project_Paper.pdf"
   width="100%"
   height="1100"
   style="border: none;"
@@ -94,13 +94,13 @@ The complete technical report and presentation are available below.
 
 ### Project Presentation
 
-[Download the PowerPoint Presentation](/EML%205360%20Project%20Presentation%20(1).pptx)
+[Download the PowerPoint Presentation](/EML_5360_Project_Presentation.pptx)
 
 <iframe
-  src="https://view.officeapps.live.com/op/embed.aspx?src=https://maddoxg-meche.github.io/EML%205360%20Project%20Presentation%20(1).pptx"
+  src="https://view.officeapps.live.com/op/embed.aspx?src=https://maddoxg-meche.github.io/EML_5360_Project_Presentation.pptx"
   width="100%"
   height="700"
   frameborder="0">
 </iframe>
 
-[Open the PDF in a new tab](/pinn3.pdf)
+[Open the PDF in a new tab](/EML_5360_Project_Paper.pdf)
