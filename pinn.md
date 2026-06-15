@@ -102,5 +102,3 @@ The complete technical report and presentation are available below.
   height="700"
   frameborder="0">
 </iframe>
-
-[Open the PDF in a new tab](/EML_5360_Project_Paper.pdf)
