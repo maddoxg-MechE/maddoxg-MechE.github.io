@@ -10,7 +10,6 @@ Unlike traditional numerical approaches that require mesh generation and repeate
   <figure>
     <img src="/pinn1.png" style="max-height:400px; max-width:100%;">
     <figcaption>
-      One-dimensional graphite-aluminum domain used in the Stefan phase-change benchmark.
     </figcaption>
   </figure>
 </div>
