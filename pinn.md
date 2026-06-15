@@ -6,6 +6,15 @@ This project investigates the application of **Physics-Informed Neural Networks 
 
 Unlike traditional numerical approaches that require mesh generation and repeated discretization, PINNs incorporate the governing differential equations directly into the loss function. The neural network learns the temperature field while simultaneously satisfying the underlying physics and imposed boundary conditions.
 
+<div style="text-align:center;">
+  <figure>
+    <img src="/pinn1.png" style="max-height:400px; max-width:100%;">
+    <figcaption>
+      One-dimensional graphite-aluminum domain used in the Stefan phase-change benchmark.
+    </figcaption>
+  </figure>
+</div>
+
 The study focused on the influence of boundary-condition enforcement strategies and collocation density on training stability and solution accuracy. Two approaches were investigated:
 
 - **Hard boundary conditions**, where Dirichlet boundary values are embedded directly into the network output.
@@ -68,14 +77,6 @@ At coarse resolutions, the PINN outperformed FEM by more than an order of magnit
 - Increasing collocation density beyond 10,000 points yielded little improvement in accuracy.
 - The hard-BC PINN achieved relative errors below 10⁻³ while avoiding traditional mesh generation.
 
-<div style="text-align:center;">
-  <figure>
-    <img src="/pinn1.png" style="max-height:400px; max-width:100%;">
-    <figcaption>
-      One-dimensional graphite-aluminum domain used in the Stefan phase-change benchmark.
-    </figcaption>
-  </figure>
-</div>
 
 <div style="text-align:center; margin-top:40px;">
   <figure>
