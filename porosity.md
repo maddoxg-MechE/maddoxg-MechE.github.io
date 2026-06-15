@@ -19,6 +19,18 @@ My work focuses on designing functionally graded porous ceramic structures with 
 
 ## Geometry Development
 
+<script type="module"
+src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js">
+</script>
+
+<model-viewer
+src="/hex_tile.glb"
+camera-controls
+auto-rotate
+shadow-intensity="1"
+style="width:100%; height:500px;">
+</model-viewer>
+
 A custom Python program was developed to generate the internal porous architecture and export the geometry directly as STL files for manufacturing. The structure contains a porosity gradient designed to mimic the thermal requirements experienced during hypersonic flight.
 
 The hot surface possesses approximately 41% porosity, providing large interconnected channels that promote gas transport and reduce heat transfer. The cold surface contains approximately 5% porosity, producing a denser ceramic structure with improved mechanical strength and thermal insulation.
