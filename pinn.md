@@ -81,8 +81,6 @@ At coarse resolutions, the PINN outperformed FEM by more than an order of magnit
 
 The complete technical report and presentation are available below.
 
-### Research Paper
-
 [Open the Research Paper (PDF) in a new tab](/EML_5360_Project_Paper.pdf)
 
 <iframe
