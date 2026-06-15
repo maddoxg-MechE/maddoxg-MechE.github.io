@@ -81,6 +81,15 @@ At coarse resolutions, the PINN outperformed FEM by more than an order of magnit
 
 The complete technical report and presentation are available below.
 
+[Download the PowerPoint Presentation](/EML_5360_Project_Presentation.pptx)
+
+<iframe
+  src="https://view.officeapps.live.com/op/embed.aspx?src=https://maddoxg-meche.github.io/EML_5360_Project_Presentation.pptx"
+  width="100%"
+  height="700"
+  frameborder="0">
+</iframe>
+
 [Open the Research Paper (PDF) in a new tab](/EML_5360_Project_Paper.pdf)
 
 <iframe
@@ -90,20 +99,3 @@ The complete technical report and presentation are available below.
   style="border: none;"
 ></iframe>
 
-### Project Presentation
-
-<iframe
-  src="./EML_5360_Project_Presentation.pdf"
-  width="100%"
-  height="700"
-  style="border:none;">
-</iframe>
-
-[Download the PowerPoint Presentation](/EML_5360_Project_Presentation.pptx)
-
-<iframe
-  src="https://view.officeapps.live.com/op/embed.aspx?src=https://maddoxg-meche.github.io/EML_5360_Project_Presentation.pptx"
-  width="100%"
-  height="700"
-  frameborder="0">
-</iframe>
