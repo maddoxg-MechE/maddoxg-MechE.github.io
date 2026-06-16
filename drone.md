@@ -18,7 +18,7 @@ Breaks down high-level vehicle functions such as flight, submersion, buoyancy co
 ### ⚙️ [Component Decomposition](component_decomposition.md)
 Identifies and organizes physical subsystems including propulsion, waterproofing, sensing, power, and control architecture.
 
-### 📊 [Technical Memos](tech_memos.md)
+### 📊 [Technical Memos](/techmemos.pdf)
 Collection of engineering analysis notes covering system feasibility, communication strategies, sensor integration, and design constraints.
 
 ---
