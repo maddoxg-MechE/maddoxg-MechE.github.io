@@ -15,6 +15,6 @@ Welcome to my engineering portfolio. Below are additional projects that are in p
 
 
 ## Links
-- [Resume (PDF)](/Resume.pdf)
+- [Resume (PDF)](/Maddox Gonzalez Resume.pdf)
 - [Handshake] (https://app.joinhandshake.com/profiles/neyach)
 - [LinkedIn] (www.linkedin.com/in/maddox-gonzalez-332a21324)
