@@ -5,7 +5,7 @@ Welcome to my engineering portfolio. Below are additional projects that are in p
 
 ## Project Areas
 - 🔬 [Undergraduate Research – Composite Materials and Structures Lab](porosity.md)
-[Drone Project](drone.md)
+- 🐠 [Hybrid Aerial–Underwater Drone (Capstone Project)](drone.md)
 - 🔥 [Physics-Informed Neural Network (PINN) Heat Transfer Solver](pinn.md)
 - 💨 [Wind Tunnel](windtunnel.md)
 - 🚀 [NASA L'Space Program](Lspace.md)
