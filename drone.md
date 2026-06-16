@@ -12,10 +12,10 @@ Current work emphasizes early-stage systems engineering, including functional de
 ### 📄 [System Requirements](requirements.md)
 Defines operational, environmental, and performance requirements for both aerial and underwater operation, including transition constraints and mission-level objectives.
 
-### 🧩 [Function Decomposition](function_decomposition.md)
+### 🧩 [Function Decomposition](Functional.html)
 Breaks down high-level vehicle functions such as flight, submersion, buoyancy control, navigation, and data collection into actionable subsystem functions.
 
-### ⚙️ [Component Decomposition](component_decomposition.md)
+### ⚙️ [Component Decomposition](Component.html)
 Identifies and organizes physical subsystems including propulsion, waterproofing, sensing, power, and control architecture.
 
 ### 📊 [Technical Memos](/techmemo.pdf)
