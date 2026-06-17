@@ -20,7 +20,7 @@ My work focuses on designing functionally graded porous ceramic structures with 
 ## Geometry Development
 
 <script type="module"
-src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js">
+src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.1.0/model-viewer.min.js">
 </script>
 
 <model-viewer
