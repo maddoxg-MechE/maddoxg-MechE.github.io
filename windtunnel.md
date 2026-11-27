@@ -124,7 +124,7 @@ Four network configurations were investigated by varying the number of neurons i
 
 <div style="text-align:center;">
   <figure>
-    <img src="//Neural Network Airfoil Prediction Architecture.png
+    <img src="/<img src="/Neural%20Network%20Airfoil%20Prediction%20Architecture.png" style="max-height:450px; max-width:100%;">
 " style="max-height:450px; max-width:100%;">
     <figcaption>Feedforward neural network architecture for aerodynamic coefficient prediction.</figcaption>
   </figure>
