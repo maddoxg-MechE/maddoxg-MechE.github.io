@@ -119,7 +119,7 @@ Four network configurations were investigated by varying the number of neurons i
   <figure>
     <img src=/Neural%20Network%20Airfoil%20Prediction%20Architecture.png style="max-height:450px; max-width:100%;">
 
-### Training Procedure
+## Training Procedure
 
 Each network configuration was trained for 3,000 epochs using the following training parameters:
 
@@ -127,37 +127,94 @@ Each network configuration was trained for 3,000 epochs using the following trai
 - **Initial learning rate:** 0.01
 - **Learning rate scheduler:** Cosine Annealing
 - **Loss function:** Mean Squared Error (MSE)
+- **Activation function:** Leaky ReLU
 - **Epochs:** 3,000
 
-Training and validation losses were recorded throughout the optimization process. The final architecture was selected based on its validation performance, with the testing dataset reserved for independent evaluation.
+Four network configurations were investigated by varying the number of neurons in each of the two hidden layers: 50, 100, 150, and 200 neurons.
 
-## Key Results
+Training and validation losses were recorded at every epoch to monitor convergence and evaluate the ability of each architecture to generalize to previously unseen airfoil geometries.
 
-### Neural Network Architecture Comparison
+## Training and Validation Loss Analysis
 
-The four network configurations were compared using their final training and validation losses.
+### 50-Neuron Architecture
 
-| Hidden Layer Neurons | Training Loss | Validation Loss |
+The first configuration utilized 50 neurons in each hidden layer. Training and validation losses were monitored throughout the 3,000-epoch optimization process.
+
+<div style="text-align:center;">
+  <figure>
+    <img src="/loss_50_neurons.png" style="max-height:450px; max-width:100%;">
+    <figcaption>Training and validation loss versus epoch for the 50-neuron architecture.</figcaption>
+  </figure>
+</div>
+
+### 100-Neuron Architecture
+
+The second configuration increased the number of neurons in each hidden layer to 100. This allowed the effect of increased network capacity on training convergence and validation performance to be evaluated.
+
+<div style="text-align:center;">
+  <figure>
+    <img src="/loss_100_neurons.png" style="max-height:450px; max-width:100%;">
+    <figcaption>Training and validation loss versus epoch for the 100-neuron architecture.</figcaption>
+  </figure>
+</div>
+
+### 150-Neuron Architecture
+
+The third configuration utilized 150 neurons per hidden layer to further investigate the relationship between network size and prediction performance.
+
+<div style="text-align:center;">
+  <figure>
+    <img src="/loss_150_neurons.png" style="max-height:450px; max-width:100%;">
+    <figcaption>Training and validation loss versus epoch for the 150-neuron architecture.</figcaption>
+  </figure>
+</div>
+
+### 200-Neuron Architecture
+
+The final configuration utilized 200 neurons in each hidden layer. This architecture achieved the lowest final validation loss among the four configurations and was selected for independent testing.
+
+<div style="text-align:center;">
+  <figure>
+    <img src="/loss_200_neurons.png" style="max-height:450px; max-width:100%;">
+    <figcaption>Training and validation loss versus epoch for the 200-neuron architecture.</figcaption>
+  </figure>
+</div>
+
+### Training Loss Comparison Across Architectures
+
+The training loss histories of all four architectures were plotted together to compare convergence behavior and the influence of hidden-layer size on optimization.
+
+<div style="text-align:center;">
+  <figure>
+    <img src="/loss_all_models.png" style="max-height:450px; max-width:100%;">
+    <figcaption>Comparison of training loss versus epoch for all four neural network architectures.</figcaption>
+  </figure>
+</div>
+
+### Architecture Performance Comparison
+
+The final training and validation losses for each configuration are summarized below.
+
+| Neurons per Hidden Layer | Training Loss | Validation Loss |
 |---:|---:|---:|
 | 50 | 0.002709 | 0.008902 |
 | 100 | 0.001759 | 0.010113 |
 | 150 | 0.001538 | 0.008874 |
 | 200 | 0.001312 | 0.006616 |
 
-The **200-neuron architecture** achieved the lowest final validation loss and was selected as the final model.
+The 200-neuron architecture achieved the lowest final training and validation losses. Although the 100-neuron architecture had a slightly higher validation loss than the 50-neuron configuration, increasing the network width to 150 and 200 neurons produced progressively lower validation losses.
 
-<div style="text-align:center;">
-  <figure>
-    <img src="/airfoil_training_validation_loss.png" style="max-height:450px; max-width:100%;">
-    <figcaption>Training and validation loss throughout the optimization process for the selected 200-neuron architecture.</figcaption>
-  </figure>
-</div>
+Based on these results, the 200-neuron architecture was selected as the final model.
 
-### Independent Testing Performance
+## Independent Testing Performance
 
-The selected neural network was evaluated using 20 airfoil geometries that were excluded from training and validation.
+The selected 200-neuron neural network was evaluated using the independent testing dataset, consisting of 20 airfoil geometries that were excluded from both training and validation.
 
-The model achieved the following root mean squared errors (RMSE) when compared against XFOIL-generated aerodynamic coefficients:
+The model predicted lift, drag, and moment coefficients for the testing geometries using their corresponding geometric and flow-condition parameters. Predictions were then compared against the aerodynamic coefficients generated by XFOIL.
+
+### Testing Root Mean Squared Error
+
+Model accuracy was evaluated using the root mean squared error (RMSE) for each aerodynamic coefficient.
 
 | Aerodynamic Coefficient | Testing RMSE |
 |:---|---:|
@@ -165,39 +222,59 @@ The model achieved the following root mean squared errors (RMSE) when compared a
 | Drag Coefficient (CD) | 0.000345 |
 | Moment Coefficient (CM) | 0.000772 |
 
-These results demonstrate the model's ability to approximate XFOIL-generated aerodynamic coefficients for previously unseen airfoil geometries.
+These errors quantify the difference between the neural network predictions and the XFOIL reference values on the independent testing dataset.
 
-### Actual vs. Predicted Aerodynamic Coefficients
+### Actual vs. Predicted Lift Coefficient
 
-Actual-versus-predicted comparisons were generated for all three aerodynamic coefficients to evaluate the agreement between neural network predictions and XFOIL reference values.
+The predicted lift coefficients were compared against the corresponding XFOIL-generated values for the testing dataset.
 
 <div style="text-align:center;">
   <figure>
-    <img src="/airfoil_cl_prediction.png" style="max-height:450px; max-width:100%;">
+    <img src="/CL_Actual_vs_Predicted.png" style="max-height:450px; max-width:100%;">
     <figcaption>Actual versus predicted lift coefficient (CL) for the independent testing dataset.</figcaption>
   </figure>
+</div>
+
+### Actual vs. Predicted Drag Coefficient
+
+The model's ability to predict drag coefficient was evaluated using the same independent testing dataset.
+
+<div style="text-align:center;">
   <figure>
-    <img src="/airfoil_cd_prediction.png" style="max-height:450px; max-width:100%;">
+    <img src="/CD_Actual_vs_Predicted.png" style="max-height:450px; max-width:100%;">
     <figcaption>Actual versus predicted drag coefficient (CD) for the independent testing dataset.</figcaption>
   </figure>
+</div>
+
+### Actual vs. Predicted Moment Coefficient
+
+The predicted moment coefficients were compared against the XFOIL reference values to evaluate the model's performance across the third aerodynamic output.
+
+<div style="text-align:center;">
   <figure>
-    <img src="/airfoil_cm_prediction.png" style="max-height:450px; max-width:100%;">
+    <img src="/CM_Actual_vs_Predicted.png" style="max-height:450px; max-width:100%;">
     <figcaption>Actual versus predicted moment coefficient (CM) for the independent testing dataset.</figcaption>
   </figure>
 </div>
 
+The three comparisons provide an independent assessment of the selected neural network's ability to reproduce XFOIL aerodynamic predictions for airfoil geometries that were not used during model training.
+
 ## Major Findings
 
-- A feedforward neural network was developed to predict three aerodynamic coefficients using airfoil geometry and flow-condition parameters.
-- Dividing the dataset by unique airfoil geometry allowed model performance to be evaluated on geometries excluded from training.
-- Increasing hidden-layer width improved final validation performance across the investigated configurations, with the 200-neuron architecture achieving the lowest validation loss.
+- A feedforward artificial neural network was developed to predict lift, drag, and moment coefficients using seven airfoil geometry and flow-condition parameters.
+- A dataset containing 200 unique NACA four-digit airfoil geometries was generated using XFOIL.
+- Dividing the dataset by unique airfoil geometry prevented geometries from appearing across multiple dataset partitions.
+- Four neural network configurations were evaluated using 50, 100, 150, and 200 neurons per hidden layer.
+- The 200-neuron architecture achieved the lowest final validation loss of 0.006616.
 - The selected architecture achieved testing RMSE values of 0.005026 for CL, 0.000345 for CD, and 0.000772 for CM.
 - The results demonstrate the potential of neural networks as computationally efficient surrogate models for aerodynamic analysis.
 
 ## Conclusion
 
-This project established a machine-learning approach for approximating airfoil aerodynamic performance using XFOIL-generated simulation data. The final PyTorch model demonstrated strong predictive agreement with the reference simulation data across 20 previously unseen airfoil geometries.
+This project established a machine-learning framework for approximating airfoil aerodynamic performance using XFOIL-generated simulation data. A feedforward neural network was developed, trained, and evaluated across 200 unique NACA four-digit airfoil geometries.
+
+The final 200-neuron architecture demonstrated strong predictive agreement with XFOIL-generated aerodynamic coefficients on an independent testing dataset containing 20 previously unseen geometries.
 
 The developed framework provides a foundation for future work involving larger aerodynamic datasets, experimental validation, and machine-learning-assisted airfoil design and optimization.
 
-**Note:** Model performance was evaluated against XFOIL-generated data rather than experimental wind tunnel measurements. The reported accuracy therefore represents agreement with the simulation data used as the reference.
+**Note:** Model performance was evaluated against XFOIL-generated data rather than experimental wind tunnel measurements. The reported accuracy therefore represents agreement with the simulation data used as the reference.e reported accuracy therefore represents agreement with the simulation data used as the reference.
