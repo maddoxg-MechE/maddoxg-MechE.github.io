@@ -10,13 +10,6 @@ A dataset containing **200 unique NACA four-digit airfoil geometries** was gener
 
 The primary objective was to evaluate the ability of a neural network to generalize to airfoil geometries that were not included in the training dataset.
 
-<div style="text-align:center;">
-  <figure>
-    <img src="/airfoil_geometry.png" style="max-height:400px; max-width:100%;">
-    <figcaption>Example NACA airfoil geometries used to generate the aerodynamic dataset.</figcaption>
-  </figure>
-</div>
-
 ## Methodology
 
 The project was developed using **Python, PyTorch, NumPy, Pandas, and Matplotlib**, with XFOIL serving as the aerodynamic simulation tool used to generate training data.
@@ -76,6 +69,26 @@ The dataset was divided by unique airfoil geometry rather than individual simula
 | **Total** | **200** | **100%** |
 
 All input and output parameters were standardized using the training dataset statistics. The same normalization parameters were then applied to the validation and testing datasets to prevent data leakage during preprocessing.
+
+### Complete Aerodynamic Dataset
+
+The complete dataset contains the generated NACA airfoil geometries, operating conditions, and corresponding XFOIL aerodynamic coefficients.
+
+The CSV file is embedded below so the dataset can be inspected directly within this project page.
+
+<div style="width:100%; height:500px; border:1px solid #ccc; border-radius:8px; overflow:hidden;">
+  <iframe
+    src="/airfoil_dataset.csv"
+    width="100%"
+    height="100%"
+    style="border:none;"
+    title="Airfoil Aerodynamic Dataset">
+  </iframe>
+</div>
+
+<p style="text-align:center;">
+  <a href="/airfoil_dataset.csv" target="_blank">Open or View Complete Dataset in a New Tab</a>
+</p>
 
 ### Artificial Neural Network Architecture
 
