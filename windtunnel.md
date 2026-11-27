@@ -354,8 +354,12 @@ The developed framework provides a foundation for future work involving larger a
 
 The complete Python implementation used to generate the aerodynamic dataset, train and validate the neural network architectures, and evaluate the final model is provided below.
 
-<iframe src="/Airfoil_Neural_Network.pdf.html" width="100%" height="800px" style="border: 1px solid #ccc; border-radius: 8px;"></iframe>
+<iframe 
+    src="/Airfoil_Neural_Network.pdf.html"
+    width="100%"
+    height="800px"
+    sandbox="allow-same-origin"
+    style="border: 1px solid #ccc; border-radius: 8px;">
+</iframe>
 
-<p style="text-align:center;">
-  <a href="/Airfoil_Neural_Network.pdf.html" target="_blank">View Python Source Code</a>
-</p>
+[View Python Source Code](/Airfoil_Neural_Network.pdf.html)
