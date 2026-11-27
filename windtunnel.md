@@ -313,21 +313,6 @@ The three comparisons provide an independent assessment of the selected neural n
 - **XFOIL artifacts:** XFOIL results near separation or with laminar separation bubbles can be noisy, and operating points where XFOIL did not converge are missing from the dataset.
 - **Single training run:** each architecture was trained once, so differences between similar configurations may be within random variation.
 
-## Reproducing the Results
-
-**Requirements**
-
-- Python 3 with PyTorch, NumPy, Pandas, Matplotlib, and scikit-learn
-- A local XFOIL executable (version 6.99 was used on Windows). Set its path near the top of the script.
-
-**Steps**
-
-1. Run the script to generate the airfoils and XFOIL simulations, which writes `airfoil_dataset.csv`.
-2. The script splits the airfoils by geometry into training, validation, and testing files.
-3. It standardizes the data, trains the four architectures, selects the best on validation loss, evaluates it on the testing set, and saves the loss and prediction plots.
-
-The XFOIL simulations dominate the total runtime. The complete run, which includes generating the 200 airfoils and training all four networks, took about 3.75 hours on a laptop CPU.
-
 ## Conclusion
 
 This project established a machine-learning framework for approximating airfoil aerodynamic performance using XFOIL-generated simulation data. A feedforward neural network was developed, trained, and evaluated across 200 unique NACA four-digit airfoil geometries.
