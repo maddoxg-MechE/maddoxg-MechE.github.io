@@ -346,3 +346,16 @@ The developed framework provides a foundation for future work involving larger a
 - Validate predictions against published experimental data.
 
 **Note:** Model performance was evaluated against XFOIL-generated data rather than experimental wind tunnel measurements. The reported accuracy therefore represents agreement with the simulation data used as the reference.
+
+
+---
+
+## Appendix A – Python Source Code
+
+The complete Python implementation used to generate the aerodynamic dataset, train and validate the neural network architectures, and evaluate the final model is provided below.
+
+<iframe src="/Airfoil_Neural_Network.pdf.html" width="100%" height="800px" style="border: 1px solid #ccc; border-radius: 8px;"></iframe>
+
+<p style="text-align:center;">
+  <a href="/Airfoil_Neural_Network.pdf.html" target="_blank">View Python Source Code</a>
+</p>
