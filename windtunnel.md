@@ -74,21 +74,35 @@ All input and output parameters were standardized using the training dataset sta
 
 The complete dataset contains the generated NACA airfoil geometries, operating conditions, and corresponding XFOIL aerodynamic coefficients.
 
-The CSV file is embedded below so the dataset can be inspected directly within this project page.
-
-<div style="width:100%; height:500px; border:1px solid #ccc; border-radius:8px; overflow:hidden;">
-  <iframe
-    src="/airfoil_dataset.csv"
-    width="100%"
-    height="100%"
-    style="border:none;"
-    title="Airfoil Aerodynamic Dataset">
-  </iframe>
+<div id="csv-container" style="width:100%; height:500px; overflow:auto; border:1px solid #ccc; border-radius:8px; background:#f8f8f8; padding:12px; box-sizing:border-box;">
+    <pre id="csv-content" style="margin:0; font-family:monospace; font-size:12px; white-space:pre; color:#222;">Loading aerodynamic dataset...</pre>
 </div>
 
 <p style="text-align:center;">
-  <a href="/airfoil_dataset.csv" target="_blank">Open or View Complete Dataset in a New Tab</a>
+    <a href="/airfoil_dataset.csv" target="_blank">Download Complete Dataset (CSV)</a>
 </p>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const csvContent = document.getElementById("csv-content");
+
+    fetch("/airfoil_dataset.csv")
+        .then(response => {
+            if (!response.ok) {
+                throw new Error("Unable to load CSV file.");
+            }
+            return response.text();
+        })
+        .then(data => {
+            csvContent.textContent = data;
+        })
+        .catch(error => {
+            csvContent.textContent =
+                "Unable to load the dataset. Please use the download link below.";
+            console.error(error);
+        });
+});
+</script>
 
 ### Artificial Neural Network Architecture
 
