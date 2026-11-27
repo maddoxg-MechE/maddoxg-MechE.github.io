@@ -4,10 +4,10 @@ Mechanical Engineering | BS–MS | Aerospace Thermofluids
 Welcome to my engineering portfolio. Below are additional projects that are in progress; and that I have completed.
 
 ## Project Areas
+- ✈️ [Neural Network-Based Airfoil Aerodynamic Performance Prediction](windtunnel.md)
 - 🔬 [Undergraduate Research – Composite Materials and Structures Lab](porosity.md)
 - 🐠 [Hybrid Aerial–Underwater Drone (Capstone Project)](drone.md)
 - 🔥 [Physics-Informed Neural Network (PINN) Heat Transfer Solver](pinn.md)
-- 💨 [Wind Tunnel](windtunnel.md)
 - 🚀 [NASA L'Space Program](Lspace.md)
 - 🌉 [IDEAS Competition](Ideas.md)
 - 🌬️ [CFD & ANSYS Fluent Simulations](ansys.md)
