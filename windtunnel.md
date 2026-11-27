@@ -32,13 +32,6 @@ The simulations varied:
 
 XFOIL-generated lift, drag, and moment coefficients were collected and organized into a structured dataset for machine-learning development.
 
-<div style="text-align:center;">
-  <figure>
-    <img src="/airfoil_xfoil.png" style="max-height:400px; max-width:100%;">
-    <figcaption>Airfoil geometry and aerodynamic simulation setup in XFOIL.</figcaption>
-  </figure>
-</div>
-
 ### Dataset Preparation and Processing
 
 The dataset contained seven input parameters and three output parameters.
