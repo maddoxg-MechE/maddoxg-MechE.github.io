@@ -115,6 +115,7 @@ Four network configurations were investigated by varying the number of neurons i
 - 150 neurons per hidden layer
 - 200 neurons per hidden layer
 
+![Feedforward neural network architecture](Neural%20Network%20Airfoil%20Prediction%20Architecture.png)
 
 
 ## Training Procedure
